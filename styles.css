@@ -55,3 +55,35 @@ body {
     box-shadow: var(--color-shadow);  
     overflow: hidden;
 }
+
+
+.heading{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 1.75rem;
+}
+.heading span{
+    color: var(--color-text);
+    font-size: 1.125rem;
+}
+.heading span:nth-child(1),
+.heading span:nth-child(3){
+    cursor: pointer;
+    font-size: 0.9375rem;
+}
+.heading span:nth-child(2){
+    margin-top: 5px;
+}
+.heading span:nth-child(2)::after{
+    width: 115px;
+    content: '';
+    position: absolute;
+    bottom: -5%;
+    border-bottom: 3px solid var(--color-orange);
+    z-index: 100;
+    left: 30%;
+    border-radius: 0.625rem;
+}

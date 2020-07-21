@@ -175,3 +175,16 @@ body {
     background: var(--bg);
     box-shadow: var(--color-shadow);
 }
+
+
+.side-section button{
+    margin-left: 0.125rem;
+}
+.equal{
+    background-color: var(--color-orange);
+    color: #fff !important;
+    box-shadow: var(--color-equal-shadow);
+}
+.operator{
+    color: var(--color-orange);
+}

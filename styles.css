@@ -188,3 +188,25 @@ body {
 .operator{
     color: var(--color-orange);
 }
+
+.operator:active, 
+.number:active,
+.operator:hover, 
+.number:hover{
+    box-shadow: var(--color-inset-shadow); 
+}
+.equal:active,
+.equal:hover{
+    background: var(--color-orange);
+    box-shadow: var(--color-equal-inset-shadow);
+}
+
+.fas{
+    cursor: pointer;
+}
+label input[type="checkbox"]{
+    -webkit-appearance: none;
+}
+label input[type="checkbox"]:checked ~ .fas{
+    color: var(--color-orange);
+}

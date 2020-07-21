@@ -1,5 +1,4 @@
 # Beautiful-Calculator-with-DARK-LIGHT-MODE
 
 
-
-![BeautifuL Calculator](https://user-images.githubusercontent.com/32854050/88050187-aa1ee980-cb56-11ea-875d-7f3948220996.jpg)
+![BeautifuL Calculator](https://user-images.githubusercontent.com/32854050/88050376-0124be80-cb57-11ea-98ce-e4d1fd1b6f68.jpg)
